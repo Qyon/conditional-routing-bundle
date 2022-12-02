@@ -3,13 +3,13 @@
     "description": "Provides a way to selectively load Symfony bundle routes based on a set of user defined conditions.",
     "type": "symfony-bundle",
     "require": {
-        "php": ">=5.3.0",
-        "symfony/yaml": "~2.3|~3.4",
-        "symfony/routing": "~2.3|~3.4",
-        "symfony/dependency-injection": "~2.3|~3.4",
-        "symfony/config": "~2.3|~3.4",
-        "symfony/http-kernel": "~2.3|~3.4",
-        "symfony/framework-bundle": "~2.3|~3.4"
+        "php": ">=7",
+        "symfony/yaml": "^5",
+        "symfony/routing": "^5",
+        "symfony/dependency-injection": "^5",
+        "symfony/config": "^5",
+        "symfony/http-kernel": "^5",
+        "symfony/framework-bundle": "^5"
     },
     "license": "MIT",
     "autoload": {
@@ -27,7 +27,7 @@
         }
     ],
     "require-dev": {
-        "symfony/expression-language": "~2.3|~3.4",
+        "symfony/expression-language": "^5",
         "codeclimate/php-test-reporter": "^0.3.2",
         "phpmd/phpmd": "^2.6",
         "phpunit/phpunit": "^4.8"
